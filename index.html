@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+    <link rel="stylesheet" href="src/style2.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e562fcb405.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container" style="width: 700px">
+      <div class="main-content">
+          <form class="input-group first-row " id="search-form" >
+          <input type="text" class="form-control bg-subtle border border-dark-subtle" placeholder="City" aria-label="City's research with two button addons search and local" id="search-city-input">
+          <button class="btn btn-outline-secondary  opacity-50 btn btn-outline-warning " type="submit" id="search-button">Search</button>
+          <button class="btn btn-outline-secondary  opacity-50 btn btn-outline-warning" type="button" id="location-button">Local</button>
+          </form>
+    <div class="container overflow-hidden" >
+          <div class="row first-second-row">
+            <div class="col-sm temperature"><span id="temperature">
+            9</span>°
+            <span class="units">
+                  <a href="#" class="link-warning" id="celsius"> C </a> |
+                  <a href="#" class="link-warning" id="fahrenheit"> F </a>
+            </span></div>
+            
+            <div class="col-sm actual-weather text-center" style="padding-top: 20px">
+               <span class="city" id="city">Paris</span> <br/> <span class="time" id="current-time"></span> <br/> <span class="day" id="current-day"></span> <br/> <span class="weather">Cloudy</span> <br/>
+            </div>
+          </div>
+</div>
+          <!--<div class="col-sm">
+            <div class="actual-weather float-sm-end">
+              <span class="time float-end" id="current-time"></span>
+              <span class="space float-end" id="day-space-time">//</span>
+              <span class="day float-end" id="current-day"></span>
+              <br />
+              <span class="weather float-end">Cloudy</span>
+              <br />
+              <div class="temperature float-end">
+                <span id="temperature">9°</span>
+                <span class="units float-end">
+                  <a href="#" id="celsius"> C </a> |
+                  <a href="#" id="fahrenheit"> F </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="city" style="width: 640px">City</div> -->
+        <div class="container overflow-hidden" >
+          <div class="row third-row">
+            <div class="col-sm">
+              <div class="p-1.5 bg-gradient text-center week-days">
+                Friday<br />
+
+                11°|5°
+                <div class="weather-icone">
+                  <i class="fa-solid fa-cloud-sun"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm ">
+              <div class="p-1.5 bg-gradient  text-center">
+                Saturday
+                <br />
+                9°|5°
+                <div class="weather-icone">
+                  <i class="fa-solid fa-cloud-sun-rain"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="p-1.5 bg-gradient text-center">
+                Sunday
+                <br />
+                9°|3°
+                <div class="weather-icone">
+                  <i class="fa-solid fa-cloud-sun-rain"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="p-1.5 bg-gradient text-center">
+                Monday
+                <br />
+                9°|6°
+                <div class="weather-icone">
+                  <i class="fa-solid fa-sun"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="p-1.5 bg-gradient text-center">
+                Tuesday
+                <br />
+                9°|5°
+                <div class="weather-icone">
+                  <i class="fa-solid fa-cloud-sun-rain"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
