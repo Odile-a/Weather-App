@@ -5,7 +5,7 @@ body {
 .main-content {
   /*width: 750px;
   height: 400px;*/
-  border-radius: 7px;
+  border-radius: 20px;
   margin: 0 auto;
   margin-top : 25%;
   background: #D1D3D5 ;/*blue url("../images/pexels-brett-sayles-3910141.jpeg");*/
@@ -18,9 +18,9 @@ body {
 }
 
 .actual-weather {
-  background: #FDF0B3;
-  border-radius: 7px;
+  background: #F2D176;
   margin: 20px 25px 20px 20px;
+  border: 2px outset rgba(255, 255, 255, 0.4);
   transition: all 250ms ease-in-out;
 }
 .actual-weather:hover{
