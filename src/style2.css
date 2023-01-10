@@ -1,5 +1,5 @@
 body {
-  background-color: #fd367e !important;
+  background-color: #B6B6B6 !important;
 }
 
 .main-content {
@@ -8,9 +8,9 @@ body {
   border-radius: 7px;
   margin: 0 auto;
   margin-top : 25%;
-  background: #f1f2f3 ;/*blue url("../images/pexels-brett-sayles-3910141.jpeg");*/
+  background: #D1D3D5 ;/*blue url("../images/pexels-brett-sayles-3910141.jpeg");*/
   background-size: 100%;
-  box-shadow : 6px 6px 1px #ff9900;
+  /*box-shadow : 6px 6px 1px #ff9900;*/
 }
 .first-row {
   padding: 10px 10px;
