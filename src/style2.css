@@ -18,35 +18,35 @@ body {
 }
 
 .actual-weather {
-  background: #F8DA8C;
+  background: #FDF0B3;
   border-radius: 7px;
   margin: 20px 25px 20px 20px;
   transition: all 250ms ease-in-out;
 }
 .actual-weather:hover{
-  background: #ff9900;
+  background: #E392C4;
 }
 
 a {
-    color:#ff9900;
+    color:#010101;
     text-decoration: none;
 }
 
 .city{
   font-size: 40px;
-  color: #3e4377;
+  color: #010101;
 }
 .day,
 .time,
 .space,
 .weather {
   font-size: 30px;
-  color: #3e4377;
+  color: #010101;
 }
 .temperature {
   font-size: 170px;
   text-align: center;
-  color: #ff9900;
+  color: #010101;
 ;
   
 }
@@ -57,7 +57,7 @@ a {
 }
 
 .third-row {
-  color : #3e4377;
+  color : #010101;
 }
 
 
@@ -65,5 +65,5 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 40px;
-  color: #ff9900;
+  color: #66B3B7;
 }
